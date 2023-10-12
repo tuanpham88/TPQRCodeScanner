@@ -9,7 +9,7 @@ A simple QR Code scanner framework for iOS. Provides a similar scan effect to io
 
 ### Installation with Swift Package Manager
 
-Once you have your Swift package set up, adding QRScanner as a dependency is as easy as adding it to the dependencies value of your <code>Package.swift</code>.
+Once you have your Swift package set up, adding TPQRCodeScanner as a dependency is as easy as adding it to the dependencies value of your <code>Package.swift</code>.
 ```
 dependencies: [
     .package(url: "https://github.com/tuanpham88/TPQRCodeScanner.git", .upToNextMajor(from: "1.0.2"))
