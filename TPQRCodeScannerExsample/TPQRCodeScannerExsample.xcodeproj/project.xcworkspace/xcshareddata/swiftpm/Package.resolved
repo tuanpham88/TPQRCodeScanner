@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "tpqrcodescanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tuanpham88/TPQRCodeScanner.git",
+      "state" : {
+        "revision" : "156fdaf6555dc0f07b813864bb16de4670ff2dac",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
