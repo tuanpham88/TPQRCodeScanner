@@ -1,0 +1,1610 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TPQRCodeScanner",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "TPQRCodeScanner"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TPQRCodePreview",
+        "printedName": "TPQRCodePreview",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "layerClass",
+            "printedName": "layerClass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodePreview(cpy)layerClass",
+            "mangledName": "$s15TPQRCodeScanner0A7PreviewC10layerClassyXlXpvpZ",
+            "moduleName": "TPQRCodeScanner",
+            "static": true,
+            "overriding": true,
+            "objc_name": "layerClass",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodePreview(cm)layerClass",
+                "mangledName": "$s15TPQRCodeScanner0A7PreviewC10layerClassyXlXpvgZ",
+                "moduleName": "TPQRCodeScanner",
+                "static": true,
+                "overriding": true,
+                "objc_name": "layerClass",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TPQRCodePreview",
+                "printedName": "TPQRCodeScanner.TPQRCodePreview",
+                "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodePreview"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodePreview(im)initWithFrame:",
+            "mangledName": "$s15TPQRCodeScanner0A7PreviewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "TPQRCodeScanner",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TPQRCodeScanner.TPQRCodePreview?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TPQRCodePreview",
+                    "printedName": "TPQRCodeScanner.TPQRCodePreview",
+                    "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodePreview"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodePreview(im)initWithCoder:",
+            "mangledName": "$s15TPQRCodeScanner0A7PreviewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TPQRCodeScanner",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodePreview",
+        "mangledName": "$s15TPQRCodeScanner0A7PreviewC",
+        "moduleName": "TPQRCodeScanner",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TPQRCodeScanner",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "TPQRCodeScanner"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TPQRCodeScannerViewDelegate",
+        "printedName": "TPQRCodeScannerViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "qrCodeScanner",
+            "printedName": "qrCodeScanner(_:didFailure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TPQRCodeScannerView",
+                "printedName": "TPQRCodeScanner.TPQRCodeScannerView",
+                "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TPQRCodeScannerError",
+                "printedName": "TPQRCodeScanner.TPQRCodeScannerError",
+                "usr": "s:15TPQRCodeScanner0aB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TPQRCodeScanner0aB12ViewDelegateP06qrCodeB0_10didFailureyAA0abC0C_AA0aB5ErrorOtF",
+            "mangledName": "$s15TPQRCodeScanner0aB12ViewDelegateP06qrCodeB0_10didFailureyAA0abC0C_AA0aB5ErrorOtF",
+            "moduleName": "TPQRCodeScanner",
+            "genericSig": "<τ_0_0 where τ_0_0 : TPQRCodeScanner.TPQRCodeScannerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : TPQRCodeScanner.TPQRCodeScannerViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "qrCodeScanner",
+            "printedName": "qrCodeScanner(_:didSuccess:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TPQRCodeScannerView",
+                "printedName": "TPQRCodeScanner.TPQRCodeScannerView",
+                "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TPQRCodeScanner0aB12ViewDelegateP06qrCodeB0_10didSuccessyAA0abC0C_SStF",
+            "mangledName": "$s15TPQRCodeScanner0aB12ViewDelegateP06qrCodeB0_10didSuccessyAA0abC0C_SStF",
+            "moduleName": "TPQRCodeScanner",
+            "genericSig": "<τ_0_0 where τ_0_0 : TPQRCodeScanner.TPQRCodeScannerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : TPQRCodeScanner.TPQRCodeScannerViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15TPQRCodeScanner0aB12ViewDelegateP",
+        "mangledName": "$s15TPQRCodeScanner0aB12ViewDelegateP",
+        "moduleName": "TPQRCodeScanner",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TPQRCodeScannerView",
+        "printedName": "TPQRCodeScannerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "focusColor",
+            "printedName": "focusColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView(py)focusColor",
+            "mangledName": "$s15TPQRCodeScanner0aB4ViewC10focusColorSo7UIColorCSgvp",
+            "moduleName": "TPQRCodeScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView(im)focusColor",
+                "mangledName": "$s15TPQRCodeScanner0aB4ViewC10focusColorSo7UIColorCSgvg",
+                "moduleName": "TPQRCodeScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView(im)setFocusColor:",
+                "mangledName": "$s15TPQRCodeScanner0aB4ViewC10focusColorSo7UIColorCSgvs",
+                "moduleName": "TPQRCodeScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15TPQRCodeScanner0aB4ViewC10focusColorSo7UIColorCSgvM",
+                "mangledName": "$s15TPQRCodeScanner0aB4ViewC10focusColorSo7UIColorCSgvM",
+                "moduleName": "TPQRCodeScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(focusColor:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TPQRCodeScannerViewDelegate",
+                "printedName": "TPQRCodeScanner.TPQRCodeScannerViewDelegate",
+                "usr": "s:15TPQRCodeScanner0aB12ViewDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TPQRCodeScanner0aB4ViewC9configure10focusColor8delegateySo7UIColorCSg_AA0abC8Delegate_ptF",
+            "mangledName": "$s15TPQRCodeScanner0aB4ViewC9configure10focusColor8delegateySo7UIColorCSg_AA0abC8Delegate_ptF",
+            "moduleName": "TPQRCodeScanner",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRunning",
+            "printedName": "startRunning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TPQRCodeScanner0aB4ViewC12startRunningyyF",
+            "mangledName": "$s15TPQRCodeScanner0aB4ViewC12startRunningyyF",
+            "moduleName": "TPQRCodeScanner",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopRunning",
+            "printedName": "stopRunning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TPQRCodeScanner0aB4ViewC11stopRunningyyF",
+            "mangledName": "$s15TPQRCodeScanner0aB4ViewC11stopRunningyyF",
+            "moduleName": "TPQRCodeScanner",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TPQRCodeScannerView",
+                "printedName": "TPQRCodeScanner.TPQRCodeScannerView",
+                "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView(im)initWithFrame:",
+            "mangledName": "$s15TPQRCodeScanner0aB4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "TPQRCodeScanner",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TPQRCodeScanner.TPQRCodeScannerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TPQRCodeScannerView",
+                    "printedName": "TPQRCodeScanner.TPQRCodeScannerView",
+                    "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView(im)initWithCoder:",
+            "mangledName": "$s15TPQRCodeScanner0aB4ViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TPQRCodeScanner",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "metadataOutput",
+            "printedName": "metadataOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureMetadataOutput",
+                "printedName": "AVFoundation.AVCaptureMetadataOutput",
+                "usr": "c:objc(cs)AVCaptureMetadataOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AVFoundation.AVMetadataObject]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVMetadataObject",
+                    "printedName": "AVFoundation.AVMetadataObject",
+                    "usr": "c:objc(cs)AVMetadataObject"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TPQRCodeScanner@objc(cs)TPQRCodeScannerView(im)captureOutput:didOutputMetadataObjects:fromConnection:",
+            "mangledName": "$s15TPQRCodeScanner0aB4ViewC14metadataOutput_03didE04fromySo017AVCaptureMetadataE0C_SaySo16AVMetadataObjectCGSo0H10ConnectionCtF",
+            "moduleName": "TPQRCodeScanner",
+            "objc_name": "captureOutput:didOutputMetadataObjects:fromConnection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TPQRCodeScanner@objc(cs)TPQRCodeScannerView",
+        "mangledName": "$s15TPQRCodeScanner0aB4ViewC",
+        "moduleName": "TPQRCodeScanner",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "IBDesignable",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TPQRCodeScanner",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "TPQRCodeScanner"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TPQRCodeScannerError",
+        "printedName": "TPQRCodeScannerError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unauthorized",
+            "printedName": "unauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TPQRCodeScanner.TPQRCodeScannerError.Type) -> (AVFoundation.AVAuthorizationStatus) -> TPQRCodeScanner.TPQRCodeScannerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AVFoundation.AVAuthorizationStatus) -> TPQRCodeScanner.TPQRCodeScannerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TPQRCodeScannerError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVAuthorizationStatus",
+                        "printedName": "AVFoundation.AVAuthorizationStatus",
+                        "usr": "c:@E@AVAuthorizationStatus"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TPQRCodeScanner.TPQRCodeScannerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TPQRCodeScannerError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TPQRCodeScanner0aB5ErrorO12unauthorizedyACSo21AVAuthorizationStatusVcACmF",
+            "mangledName": "$s15TPQRCodeScanner0aB5ErrorO12unauthorizedyACSo21AVAuthorizationStatusVcACmF",
+            "moduleName": "TPQRCodeScanner"
+          },
+          {
+            "kind": "Var",
+            "name": "deviceFailure",
+            "printedName": "deviceFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TPQRCodeScanner.TPQRCodeScannerError.Type) -> (TPQRCodeScanner.TPQRCodeScannerError.DeviceError) -> TPQRCodeScanner.TPQRCodeScannerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TPQRCodeScanner.TPQRCodeScannerError.DeviceError) -> TPQRCodeScanner.TPQRCodeScannerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TPQRCodeScannerError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TPQRCodeScanner.TPQRCodeScannerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TPQRCodeScannerError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TPQRCodeScanner0aB5ErrorO13deviceFailureyA2C06DeviceC0OcACmF",
+            "mangledName": "$s15TPQRCodeScanner0aB5ErrorO13deviceFailureyA2C06DeviceC0OcACmF",
+            "moduleName": "TPQRCodeScanner"
+          },
+          {
+            "kind": "Var",
+            "name": "readFailure",
+            "printedName": "readFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TPQRCodeScanner.TPQRCodeScannerError.Type) -> TPQRCodeScanner.TPQRCodeScannerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TPQRCodeScannerError",
+                    "printedName": "TPQRCodeScanner.TPQRCodeScannerError",
+                    "usr": "s:15TPQRCodeScanner0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TPQRCodeScanner.TPQRCodeScannerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TPQRCodeScannerError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TPQRCodeScanner0aB5ErrorO11readFailureyA2CmF",
+            "mangledName": "$s15TPQRCodeScanner0aB5ErrorO11readFailureyA2CmF",
+            "moduleName": "TPQRCodeScanner"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TPQRCodeScanner.TPQRCodeScannerError.Type) -> TPQRCodeScanner.TPQRCodeScannerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TPQRCodeScannerError",
+                    "printedName": "TPQRCodeScanner.TPQRCodeScannerError",
+                    "usr": "s:15TPQRCodeScanner0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TPQRCodeScanner.TPQRCodeScannerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TPQRCodeScannerError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TPQRCodeScanner0aB5ErrorO7unknownyA2CmF",
+            "mangledName": "$s15TPQRCodeScanner0aB5ErrorO7unknownyA2CmF",
+            "moduleName": "TPQRCodeScanner"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "DeviceError",
+            "printedName": "DeviceError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "videoUnavailable",
+                "printedName": "videoUnavailable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TPQRCodeScanner.TPQRCodeScannerError.DeviceError.Type) -> TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DeviceError",
+                            "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                            "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O16videoUnavailableyA2EmF",
+                "mangledName": "$s15TPQRCodeScanner0aB5ErrorO06DeviceC0O16videoUnavailableyA2EmF",
+                "moduleName": "TPQRCodeScanner"
+              },
+              {
+                "kind": "Var",
+                "name": "inputInvalid",
+                "printedName": "inputInvalid",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TPQRCodeScanner.TPQRCodeScannerError.DeviceError.Type) -> TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DeviceError",
+                            "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                            "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O12inputInvalidyA2EmF",
+                "mangledName": "$s15TPQRCodeScanner0aB5ErrorO06DeviceC0O12inputInvalidyA2EmF",
+                "moduleName": "TPQRCodeScanner"
+              },
+              {
+                "kind": "Var",
+                "name": "metadataOutputFailure",
+                "printedName": "metadataOutputFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TPQRCodeScanner.TPQRCodeScannerError.DeviceError.Type) -> TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DeviceError",
+                            "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                            "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O21metadataOutputFailureyA2EmF",
+                "mangledName": "$s15TPQRCodeScanner0aB5ErrorO06DeviceC0O21metadataOutputFailureyA2EmF",
+                "moduleName": "TPQRCodeScanner"
+              },
+              {
+                "kind": "Var",
+                "name": "videoDataOutputFailure",
+                "printedName": "videoDataOutputFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TPQRCodeScanner.TPQRCodeScannerError.DeviceError.Type) -> TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceError",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                        "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DeviceError",
+                            "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                            "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O22videoDataOutputFailureyA2EmF",
+                "mangledName": "$s15TPQRCodeScanner0aB5ErrorO06DeviceC0O22videoDataOutputFailureyA2EmF",
+                "moduleName": "TPQRCodeScanner"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceError",
+                    "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                    "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceError",
+                    "printedName": "TPQRCodeScanner.TPQRCodeScannerError.DeviceError",
+                    "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O2eeoiySbAE_AEtFZ",
+                "mangledName": "$s15TPQRCodeScanner0aB5ErrorO06DeviceC0O2eeoiySbAE_AEtFZ",
+                "moduleName": "TPQRCodeScanner",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O9hashValueSivp",
+                "mangledName": "$s15TPQRCodeScanner0aB5ErrorO06DeviceC0O9hashValueSivp",
+                "moduleName": "TPQRCodeScanner",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O9hashValueSivg",
+                    "mangledName": "$s15TPQRCodeScanner0aB5ErrorO06DeviceC0O9hashValueSivg",
+                    "moduleName": "TPQRCodeScanner",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O4hash4intoys6HasherVz_tF",
+                "mangledName": "$s15TPQRCodeScanner0aB5ErrorO06DeviceC0O4hash4intoys6HasherVz_tF",
+                "moduleName": "TPQRCodeScanner",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15TPQRCodeScanner0aB5ErrorO06DeviceC0O",
+            "mangledName": "$s15TPQRCodeScanner0aB5ErrorO06DeviceC0O",
+            "moduleName": "TPQRCodeScanner",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15TPQRCodeScanner0aB5ErrorO",
+        "mangledName": "$s15TPQRCodeScanner0aB5ErrorO",
+        "moduleName": "TPQRCodeScanner",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodePreview.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 175,
+      "value": "\"Expected `AVCaptureVideoPreviewLayer` type for layer.\nCheck PreviewView.layerClass implementation.\""
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
+      "length": 42,
+      "value": "\"com.tp.qrcodescanner.captureSessionQueue\""
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 36,
+      "value": "\"com.tp.qrcodescanner.metadataQueue\""
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1513,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1519,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1529,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1540,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1756,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1762,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1782,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1788,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1968,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2153,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2355,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2690,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4494,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4564,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5927,
+      "length": 6,
+      "value": "3840.0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5936,
+      "length": 6,
+      "value": "2160.0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6071,
+      "length": 6,
+      "value": "1920.0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6080,
+      "length": 6,
+      "value": "1080.0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6900,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7154,
+      "length": 4,
+      "value": "0.10"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7405,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7667,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7685,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7692,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7711,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8866,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8872,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8999,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9005,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9033,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9164,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9170,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9199,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10160,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 10713,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10789,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10804,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10839,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10854,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10887,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10902,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10952,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10967,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11000,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11015,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lienvietbank\/Desktop\/TEST\/TPQRCodeScanner\/TPQRCodeScanner\/TPQRCodeScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11122,
+      "length": 3,
+      "value": "0.5"
+    }
+  ]
+}
