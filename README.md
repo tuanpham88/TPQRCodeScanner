@@ -21,8 +21,11 @@ dependencies: [
 import TPQRCodeScanner
 ```
 ### Add `Privacy - Camera Usage Description` to Info.plist file
+```
 <key>NSCameraUsageDescription</key>
 <string>Camera Usage Description</string>
+
+```
 
 ### The Basis Of Usage
 
